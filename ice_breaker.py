@@ -9,7 +9,7 @@ from third_parties.linkedin import scrape_linkedin_profile
 if __name__ == "__main__":
     print("Hello LangChain!")
 
-    linkedin_profile_url = linkedin_lookup_agent(name="Eden Marco Udemy")
+    linkedin_profile_url = linkedin_lookup_agent(name="Eden Marco")
 
     summary_template = """
          given the Linkedin information {information} about a person from I want you to create:
