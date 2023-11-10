@@ -1,4 +1,7 @@
 # Ice-Breaker
+
+[![CI](https://github.com/langchain-ai/langchain/actions/workflows/langchain_ci.yml/badge.svg)](https://github.com/langchain-ai/langchain/actions/workflows/langchain_ci.yml)
+
 Personalized AI Conversation Starter
 A web application that generates personalized icebreaker conversations using AI.
 
