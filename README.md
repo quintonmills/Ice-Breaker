@@ -26,23 +26,24 @@ Docker containerization for simple deployment
 
 **Getting Started**
 
-# Install dependencies
-```pip install -r requirements.txt
-# Configure environment variables
+# Run Locally
+```Clone the project
 
-cp .env.example .env
+  git clone https://github.com/emarco177/ice_breaker.git
+Go to the project directory
 
-# Run backend
+  cd ice_breaker
+Install dependencies
 
-uvicorn app.main:app --reload
+  pipenv install
+Start the flask server
 
-# Run frontend
+  pipenv run app.py
+Running Tests
+To run tests, run the following command
 
-cd frontent
-npm install
-npm run dev
+  pipenv run pytest .
 ```
-
 **Usage**
 Enter the name and social profile URLs for the target individual
 Click Generate Icebreaker to analyze their data and create a personalized opener
